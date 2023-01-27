@@ -1,1 +1,94 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css");
 
+@keyframes appear_animation {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media (min-width: 576px) {
+    .hide-on-mobile {
+        display: flex !important;
+    }
+}
+
+@media (min-width: 576px) {
+    .hide-on-desktop {
+        display: none !important;
+    }
+}
+
+html {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
+#app {
+    height: 100%;
+}
+
+.appear {
+    animation-name: appear_animation;
+    animation-duration: 1s;
+}
+
+.hide-on-mobile {
+    display: none !important;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.clickable-shadow:hover {
+    cursor: pointer;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.35) !important;
+}
+
+.progress-bar {
+    transition: unset !important;
+}
+
+.placeholder-img {
+    background-image: linear-gradient(to bottom right, grey, var(--bs-dark));
+}
+
+.placeholder-img-wide {
+    width: 100%;
+    background-image: linear-gradient(to bottom right, grey, var(--bs-dark));
+}
+
+.invisible {
+    opacity: 0;
+}
+
+.smooth-scroll {
+    scroll-behavior: smooth;
+}
+
+.btn-circle {
+    aspect-ratio: 1 / 1;
+    border-radius: 50% !important;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.btn-square {
+    aspect-ratio: 1 / 1;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.img-fit {
+    object-fit: cover;
+    max-width: 100% !important;
+    aspect-ratio: 1/1;
+}
