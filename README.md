@@ -1,5 +1,5 @@
-# css
-Some CSS rules
+# buzluk-css
+Some CSS rules that I use in my projects
 
 # Adding to your website
 Place the <link> tag in the <head> for the CSS.
